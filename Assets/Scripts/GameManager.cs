@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     public Material glowyMat;
     public Material interactableMat;
 
+    //Tokay gameObject
+    public GameObject tokay;
+
     private int prevObjCounter;
 
     //Objective 1 (cane) objects
@@ -25,7 +28,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        objCounter = 1;
+        objCounter = 2;
 
         prevObjCounter = 0;
 
@@ -103,6 +106,9 @@ public class GameManager : MonoBehaviour
                     PlayerMovement.canMove = false;
                     yield return new WaitForSeconds(8f);
                     PlayerMovement.canMove = true;
+
+                    //Spawn Tokay
+                    tokay = Instantiate(tokay, new Vector3(-12.25f, 0, -2), Quaternion.identity);
 
                     break;
                 }

@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
-    agentHeight: 2
+    agentRadius: 0.65
+    agentHeight: 1.8
     agentSlope: 45
-    agentClimb: 0.4
+    agentClimb: 0.53
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.21666665
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: a24f569ebc17abd459af72703b346f0b, type: 2}
 --- !u!1001 &21621702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -245,7 +249,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &22699162
 Transform:
@@ -340,7 +344,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &40031271
 Transform:
@@ -428,6 +432,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c001a3fcfc5eb1743b5d94248289ff94, type: 3}
       propertyPath: m_Name
       value: sink1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c001a3fcfc5eb1743b5d94248289ff94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c001a3fcfc5eb1743b5d94248289ff94, type: 3}
       propertyPath: m_RootOrder
@@ -667,6 +675,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -810,7 +822,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &79087284
 Transform:
@@ -1037,7 +1049,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &154005207
 Transform:
@@ -1190,6 +1202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1237,7 +1253,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &155632693
 Transform:
@@ -1332,7 +1348,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &158062054
 Transform:
@@ -1446,7 +1462,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!224 &203530161
 RectTransform:
@@ -1605,6 +1621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1652,7 +1672,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &245424875
 Transform:
@@ -1805,6 +1825,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Name
       value: shelf (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2007,6 +2031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2044,6 +2072,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1527729624}
     m_Modifications:
+    - target: {fileID: 100000, guid: b6a1de460b9d70a419358503705d942d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: b6a1de460b9d70a419358503705d942d, type: 3}
       propertyPath: m_Name
       value: chair (7)
@@ -2116,7 +2148,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17516
+  m_Name: pb_Mesh17518
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2313,6 +2345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: long table
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 226f3459b674c534da569f85f927c27d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 226f3459b674c534da569f85f927c27d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2397,7 +2433,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &387022641
 Transform:
@@ -2497,7 +2533,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &420695307
 Transform:
@@ -3945,7 +3981,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &457614400
 Transform:
@@ -4035,6 +4071,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1527729624}
     m_Modifications:
+    - target: {fileID: 100000, guid: b6a1de460b9d70a419358503705d942d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: b6a1de460b9d70a419358503705d942d, type: 3}
       propertyPath: m_Name
       value: chair (3)
@@ -4214,7 +4254,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &542595243
 Transform:
@@ -4309,7 +4349,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &549152029
 Transform:
@@ -4463,6 +4503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4515,7 +4559,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &587243552
 Transform:
@@ -4604,6 +4648,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 226f3459b674c534da569f85f927c27d, type: 3}
       propertyPath: m_Name
       value: long table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 226f3459b674c534da569f85f927c27d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 226f3459b674c534da569f85f927c27d, type: 3}
       propertyPath: m_RootOrder
@@ -4856,7 +4904,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &655056310
 Transform:
@@ -4952,7 +5000,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &657074781
 Transform:
@@ -5048,7 +5096,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &658702245
 Transform:
@@ -5137,6 +5185,34 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
       propertyPath: m_Name
       value: Sink_Double
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
       propertyPath: m_RootOrder
@@ -6560,6 +6636,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6825,6 +6905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6935,6 +7019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -7040,6 +7128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -7087,7 +7179,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &790714090
 Transform:
@@ -7337,6 +7429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -7384,7 +7480,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &802036595
 Transform:
@@ -7470,6 +7566,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 748071528}
     m_Modifications:
+    - target: {fileID: 100000, guid: b6a1de460b9d70a419358503705d942d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: b6a1de460b9d70a419358503705d942d, type: 3}
       propertyPath: m_Name
       value: chair
@@ -7690,7 +7790,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &871123846
 Transform:
@@ -7832,6 +7932,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1527729624}
     m_Modifications:
+    - target: {fileID: 100000, guid: b6a1de460b9d70a419358503705d942d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: b6a1de460b9d70a419358503705d942d, type: 3}
       propertyPath: m_Name
       value: chair (1)
@@ -8015,6 +8119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -8078,6 +8186,8 @@ MonoBehaviour:
   objText: {fileID: 1802445832}
   glowyMat: {fileID: 2100000, guid: f9379931d75e846418cc5529807fb5e4, type: 2}
   interactableMat: {fileID: 2100000, guid: 3184411a3e5a93b4d88829bed5309bbf, type: 2}
+  monsterMat: {fileID: 2100000, guid: 41e835a1162eddd419a9751941a7c13b, type: 2}
+  tokay: {fileID: 111292, guid: 332254905319da1469830bd3e8725b48, type: 3}
   obj1Cane: {fileID: 1921775352}
   obj1BlockingWall: {fileID: 747917169}
   obj2Fridge: {fileID: 1740447166}
@@ -8131,7 +8241,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1026100321
 Transform:
@@ -8226,7 +8336,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1030980657
 Transform:
@@ -8322,7 +8432,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1031490837
 Transform:
@@ -8475,6 +8585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -8608,6 +8722,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 748071528}
     m_Modifications:
+    - target: {fileID: 100000, guid: b6a1de460b9d70a419358503705d942d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: b6a1de460b9d70a419358503705d942d, type: 3}
       propertyPath: m_Name
       value: chair
@@ -8714,7 +8832,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1044908736
 Transform:
@@ -8905,7 +9023,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1059909801
 Transform:
@@ -9075,7 +9193,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1068771490
 Transform:
@@ -9160,6 +9278,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1527729624}
     m_Modifications:
+    - target: {fileID: 100000, guid: b6a1de460b9d70a419358503705d942d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: b6a1de460b9d70a419358503705d942d, type: 3}
       propertyPath: m_Name
       value: chair (6)
@@ -9282,7 +9404,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1090396516
 Transform:
@@ -9378,7 +9500,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1103886959
 Transform:
@@ -9502,6 +9624,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0a751c0923fc3f24f952213735c8a36d, type: 3}
       propertyPath: m_Name
       value: toilet1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0a751c0923fc3f24f952213735c8a36d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0a751c0923fc3f24f952213735c8a36d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a751c0923fc3f24f952213735c8a36d, type: 3}
       propertyPath: m_RootOrder
@@ -9649,6 +9779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -9696,7 +9830,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1228914711
 Transform:
@@ -9787,6 +9921,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1527729624}
     m_Modifications:
+    - target: {fileID: 100000, guid: b6a1de460b9d70a419358503705d942d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: b6a1de460b9d70a419358503705d942d, type: 3}
       propertyPath: m_Name
       value: chair
@@ -9868,6 +10006,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 226f3459b674c534da569f85f927c27d, type: 3}
       propertyPath: m_Name
       value: long table (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 226f3459b674c534da569f85f927c27d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 226f3459b674c534da569f85f927c27d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 226f3459b674c534da569f85f927c27d, type: 3}
       propertyPath: m_RootOrder
@@ -10029,6 +10175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -10075,7 +10225,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!224 &1308843744
 RectTransform:
@@ -10151,7 +10301,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1321355349
 Transform:
@@ -10277,6 +10427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bathtub
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 80009c74748d82047b88c3f400e09c3d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 80009c74748d82047b88c3f400e09c3d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -10361,7 +10515,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1406984655
 Transform:
@@ -10474,7 +10628,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1453720729
 Transform:
@@ -10627,6 +10781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -10674,7 +10832,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1472232290
 Transform:
@@ -10763,6 +10921,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: facee757a98c3154c83c22c6299ef380, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: facee757a98c3154c83c22c6299ef380, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -10831,7 +10993,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17670
+  m_Name: pb_Mesh17678
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11001,6 +11163,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1527729624}
     m_Modifications:
+    - target: {fileID: 100000, guid: b6a1de460b9d70a419358503705d942d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: b6a1de460b9d70a419358503705d942d, type: 3}
       propertyPath: m_Name
       value: chair (2)
@@ -11261,7 +11427,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1567579339
 Transform:
@@ -11346,6 +11512,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1527729624}
     m_Modifications:
+    - target: {fileID: 100000, guid: b6a1de460b9d70a419358503705d942d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: b6a1de460b9d70a419358503705d942d, type: 3}
       propertyPath: m_Name
       value: chair (4)
@@ -11429,7 +11599,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1610309956
 Transform:
@@ -11542,7 +11712,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1638533424
 Transform:
@@ -11674,7 +11844,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1689469104
 Transform:
@@ -11770,7 +11940,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1707522560
 Transform:
@@ -11994,6 +12164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: toilet_paper_roll
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c764d1d0273921641a0ed3c8bb41e77c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c764d1d0273921641a0ed3c8bb41e77c, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -12073,7 +12247,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1763701651
 Transform:
@@ -12249,6 +12423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12272,7 +12450,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!114 &1802445832
 MonoBehaviour:
@@ -12410,6 +12588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12514,6 +12696,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Name
       value: shelf (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12620,6 +12806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12721,6 +12911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cane
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d04850ff04539004db8b4b8371ced0f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d04850ff04539004db8b4b8371ced0f6, type: 3}
 --- !u!1 &1884425185 stripped
@@ -12758,7 +12952,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1884975537
 Transform:
@@ -12871,7 +13065,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1918216815
 Transform:
@@ -12966,7 +13160,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1919312866
 Transform:
@@ -13213,7 +13407,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1948048177
 Transform:
@@ -13302,6 +13496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towel2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e8f96292ba9e7ed4f9482e35c6d8164c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e8f96292ba9e7ed4f9482e35c6d8164c, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -13381,7 +13579,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1966755174
 Transform:
@@ -13476,7 +13674,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1967886021
 Transform:
@@ -13561,6 +13759,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1527729624}
     m_Modifications:
+    - target: {fileID: 100000, guid: b6a1de460b9d70a419358503705d942d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: b6a1de460b9d70a419358503705d942d, type: 3}
       propertyPath: m_Name
       value: chair (5)
@@ -13702,6 +13904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -13742,6 +13948,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 73ad17e517a69b64cb73b044863f231c, type: 3}
       propertyPath: m_Name
       value: Refrigerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 73ad17e517a69b64cb73b044863f231c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 73ad17e517a69b64cb73b044863f231c, type: 3}
       propertyPath: m_RootOrder
@@ -13822,7 +14032,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2004860298
 Transform:
@@ -13971,6 +14181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cane
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d04850ff04539004db8b4b8371ced0f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d04850ff04539004db8b4b8371ced0f6, type: 3}
 --- !u!1001 &2014648159
@@ -13983,6 +14197,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 226f3459b674c534da569f85f927c27d, type: 3}
       propertyPath: m_Name
       value: long table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 226f3459b674c534da569f85f927c27d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 226f3459b674c534da569f85f927c27d, type: 3}
       propertyPath: m_RootOrder
@@ -14100,7 +14318,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2020525411
 Transform:
@@ -14188,6 +14406,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e597b95fbb486bb4aa724b67c33d33f2, type: 3}
       propertyPath: m_Name
       value: Stove_Electric
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e597b95fbb486bb4aa724b67c33d33f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e597b95fbb486bb4aa724b67c33d33f2, type: 3}
       propertyPath: m_RootOrder
@@ -14492,6 +14714,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Name
       value: shelf (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14911,6 +15137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -14951,6 +15181,10 @@ PrefabInstance:
     - target: {fileID: 1450729383215558, guid: 90ddae156612a6c4987d61b558651019, type: 3}
       propertyPath: m_Name
       value: SofaModern_Fabric
+      objectReference: {fileID: 0}
+    - target: {fileID: 1450729383215558, guid: 90ddae156612a6c4987d61b558651019, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4133567738016618, guid: 90ddae156612a6c4987d61b558651019, type: 3}
       propertyPath: m_RootOrder
@@ -15089,6 +15323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -15194,6 +15432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 250288976933949866, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8210402279969353433, guid: 521c1d2ea014271479067ced5e16de0f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -15251,6 +15493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7423783280581629464, guid: bdc0dd0a352d28d49889dce8f02b9b65, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7423783280581629468, guid: bdc0dd0a352d28d49889dce8f02b9b65, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -15277,7 +15523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7423783280581629474, guid: bdc0dd0a352d28d49889dce8f02b9b65, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.13
+      value: 11.19
       objectReference: {fileID: 0}
     - target: {fileID: 7423783280581629474, guid: bdc0dd0a352d28d49889dce8f02b9b65, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15285,7 +15531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7423783280581629474, guid: bdc0dd0a352d28d49889dce8f02b9b65, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.5
+      value: -4.09
       objectReference: {fileID: 0}
     - target: {fileID: 7423783280581629474, guid: bdc0dd0a352d28d49889dce8f02b9b65, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15314,6 +15560,10 @@ PrefabInstance:
     - target: {fileID: 7423783280581629474, guid: bdc0dd0a352d28d49889dce8f02b9b65, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7423783282410910245, guid: bdc0dd0a352d28d49889dce8f02b9b65, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8882281609121215123, guid: bdc0dd0a352d28d49889dce8f02b9b65, type: 3}
       propertyPath: m_Enabled
@@ -15389,7 +15639,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &8184329318970439534
 BoxCollider:
