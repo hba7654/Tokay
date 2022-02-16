@@ -64,10 +64,9 @@ public class PlayerInteraction : MonoBehaviour
     {
         CheckAudio();
 
-        if(playerCane.activeInHierarchy && Input.GetMouseButtonDown(0) && !caneTap.isPlaying)
+        if(PlayerMovement.canMove && playerCane.activeInHierarchy && Input.GetMouseButtonDown(0) && !caneTap.isPlaying)
         {
             caneTap.Play();
-            //intensity = 1; //override intensity bc it's too low :c
         }
 
        if(!enviroCane.activeInHierarchy && !playerCane.activeInHierarchy)

@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour
     public Material interactableMat;
 
     private int prevObjCounter;
-    //private GameObject player;
 
     //Objective 1 (cane) objects
     public GameObject obj1Cane;
@@ -26,7 +25,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        objCounter = 2;
+        objCounter = 1;
 
         prevObjCounter = 0;
 
@@ -75,8 +74,10 @@ public class GameManager : MonoBehaviour
                     Destroy(obj2Fridge.GetComponent<Interactables>());
                     obj2Fridge.GetComponent<MeshRenderer>().material = glowyMat;
 
-                    //Wait until player finishes drinking water
+                    //Wait until action finishes
+                    PlayerMovement.canMove = false;
                     yield return new WaitForSeconds(9f);
+                    PlayerMovement.canMove = true;
 
                     MeshRenderer[] toiletRenderers = obj3Toilet.GetComponentsInChildren<MeshRenderer>();
                     toiletRenderers[0].material = interactableMat;
@@ -87,6 +88,21 @@ public class GameManager : MonoBehaviour
                     objText.text = "I drank too much, I need to pee now";
                     yield return new WaitForSeconds(5);
                     objText.gameObject.SetActive(false);
+
+                    break;
+                }
+            case 4:
+                {
+                    MeshRenderer[] toiletRenderers = obj3Toilet.GetComponentsInChildren<MeshRenderer>();
+                    toiletRenderers[0].material = glowyMat;
+                    toiletRenderers[1].material = glowyMat;
+                    Destroy(toiletRenderers[0].gameObject.GetComponentInChildren<Interactables>());
+                    Destroy(toiletRenderers[1].gameObject.GetComponentInChildren<Interactables>());
+
+                    //Wait until action finishes
+                    PlayerMovement.canMove = false;
+                    yield return new WaitForSeconds(8f);
+                    PlayerMovement.canMove = true;
 
                     break;
                 }
