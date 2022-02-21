@@ -42,12 +42,12 @@ public class PlayerInteraction : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        glowyColor = Color.gray;
+        glowyColor = new Color(0, 64, 255); 
         itemColor = Color.green;
         monsterColor = Color.red;
         activeObjColor = Color.yellow;
         inactiveObjColor = Color.magenta;
-        wallColor = Color.cyan;
+        wallColor = Color.blue;
 
         spectrumData = new float[128];
 

@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
 
     //Tokay gameObject
     public GameObject tokay;
+    public Transform[] patrolPoints;
 
     private int prevObjCounter;
 
@@ -25,15 +26,22 @@ public class GameManager : MonoBehaviour
     //Objective 3 (toilet) objects
     public GameObject obj3Toilet;
 
+    //Exit door
+    public GameObject finalDoor;
+
     // Start is called before the first frame update
     void Start()
     {
-        objCounter = 2;
+        objCounter = 1;
 
         prevObjCounter = 0;
 
         //Disable interactability of future objectives
         obj3Toilet.GetComponent<Interactables>().enabled = false;
+        finalDoor.GetComponent<Interactables>().enabled = false;
+
+        obj3Toilet.GetComponent<MeshRenderer>().material = glowyMat;
+        finalDoor.GetComponent<MeshRenderer>().material = glowyMat;
     }
 
     // Update is called once per frame
@@ -65,8 +73,8 @@ public class GameManager : MonoBehaviour
                     obj1Cane.SetActive(false);
                     obj1BlockingWall.SetActive(false);
 
-                    objText.gameObject.SetActive(true);
                     objText.text = "I'm thirsty, I could use a drink";
+                    objText.gameObject.SetActive(true);
                     yield return new WaitForSeconds(5);
                     objText.gameObject.SetActive(false);
 
@@ -85,10 +93,11 @@ public class GameManager : MonoBehaviour
                     MeshRenderer[] toiletRenderers = obj3Toilet.GetComponentsInChildren<MeshRenderer>();
                     toiletRenderers[0].material = interactableMat;
                     toiletRenderers[1].material = interactableMat;
+                    obj3Toilet.GetComponent<MeshRenderer>().material = interactableMat;
                     obj3Toilet.GetComponent<Interactables>().enabled = true;
 
-                    objText.gameObject.SetActive(true);
                     objText.text = "I drank too much, I need to pee now";
+                    objText.gameObject.SetActive(true);
                     yield return new WaitForSeconds(5);
                     objText.gameObject.SetActive(false);
 
@@ -102,14 +111,46 @@ public class GameManager : MonoBehaviour
                     Destroy(toiletRenderers[0].gameObject.GetComponentInChildren<Interactables>());
                     Destroy(toiletRenderers[1].gameObject.GetComponentInChildren<Interactables>());
 
-                    //Wait until action finishes
+                    //Wait until actions finish
                     PlayerMovement.canMove = false;
                     yield return new WaitForSeconds(8f);
-                    PlayerMovement.canMove = true;
 
                     //Spawn Tokay
+                    GetComponent<AudioSource>().Play();
+                    yield return new WaitForSeconds(1);
                     tokay = Instantiate(tokay, new Vector3(-12.25f, 0, -2), Quaternion.identity);
 
+                    yield return new WaitForSeconds(4);
+                    objText.text = "What the fuck was that?!";
+                    objText.gameObject.SetActive(true);
+                    yield return new WaitForSeconds(5);
+                    objText.gameObject.SetActive(false);
+
+                    PlayerMovement.canMove = true;
+                    break;
+                }
+            case 5:
+                {
+                    finalDoor.GetComponent<MeshRenderer>().material = interactableMat;
+                    finalDoor.GetComponent<Interactables>().enabled = true;
+
+                    objText.text = "Holy shit, I need to get out of here!";
+                    objText.gameObject.SetActive(true);
+                    yield return new WaitForSeconds(3);
+                    objText.gameObject.SetActive(false);
+                    break;
+                }
+            case 6:
+                {
+                    finalDoor.GetComponent<MeshRenderer>().material = glowyMat;
+                    finalDoor.GetComponent<Interactables>().enabled = false;
+
+                    objText.text = "The door's locked, where's the key?";
+                    objText.gameObject.SetActive(true);
+                    yield return new WaitForSeconds(3);
+                    objText.gameObject.SetActive(false);
+
+                    StartCoroutine(tokay.GetComponent<TokayController>().Rise());
                     break;
                 }
         }

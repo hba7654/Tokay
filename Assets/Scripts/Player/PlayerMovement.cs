@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
         footstepSource = GetComponent<AudioSource>();
 
         playerCam = transform.GetChild(0).gameObject;
-        playerCam.transform.rotation = Quaternion.identity;
+        //playerCam.transform.rotation = Quaternion.identity;
 
         speed = 2;
 

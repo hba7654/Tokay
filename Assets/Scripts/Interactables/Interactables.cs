@@ -6,15 +6,12 @@ public class Interactables : MonoBehaviour
 {
     public Material activeMat;
     public Material inactiveMat;
-    public GameObject interactCursor;
 
     private GameManager gameManager;
     private GameObject player;
 
     private void Start()
     {
-        interactCursor.SetActive(false);
-
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
 
         player = GameObject.Find("Player");
@@ -22,21 +19,22 @@ public class Interactables : MonoBehaviour
 
     private void OnMouseOver()
     {
-        this.GetComponent<MeshRenderer>().material = activeMat;
         if (Vector3.Distance(this.transform.position, player.transform.position) <= 2.5f)
         {
-            interactCursor.SetActive(true);
+            this.GetComponent<MeshRenderer>().material = activeMat;
             if (Input.GetKeyDown(KeyCode.E))
             {
-                GetComponent<AudioSource>().Play(0);
-                interactCursor.SetActive(false);
+                if (GetComponent<AudioSource>() != null)
+                {
+                    GetComponent<AudioSource>().Play(0);
+                }
                 gameManager.objCounter++;
             }
         }
     }
     private void OnMouseExit()
     {
+        if (!player) return;
         this.GetComponent<MeshRenderer>().material = inactiveMat;
-        interactCursor.SetActive(false);
     }
 }
