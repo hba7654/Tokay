@@ -121,7 +121,7 @@ public class GameManager : MonoBehaviour
                     tokay = Instantiate(tokay, new Vector3(-12.25f, 0, -2), Quaternion.identity);
 
                     yield return new WaitForSeconds(4);
-                    objText.text = "What the fuck was that?!";
+                    objText.text = "What was that?!";
                     objText.gameObject.SetActive(true);
                     yield return new WaitForSeconds(5);
                     objText.gameObject.SetActive(false);
@@ -134,7 +134,7 @@ public class GameManager : MonoBehaviour
                     finalDoor.GetComponent<MeshRenderer>().material = interactableMat;
                     finalDoor.GetComponent<Interactables>().enabled = true;
 
-                    objText.text = "Holy shit, I need to get out of here!";
+                    objText.text = "I need to get out of here!";
                     objText.gameObject.SetActive(true);
                     yield return new WaitForSeconds(3);
                     objText.gameObject.SetActive(false);
@@ -145,7 +145,7 @@ public class GameManager : MonoBehaviour
                     finalDoor.GetComponent<MeshRenderer>().material = glowyMat;
                     finalDoor.GetComponent<Interactables>().enabled = false;
 
-                    objText.text = "The door's locked, where's the key?";
+                    objText.text = "The door's locked";
                     objText.gameObject.SetActive(true);
                     yield return new WaitForSeconds(3);
                     objText.gameObject.SetActive(false);

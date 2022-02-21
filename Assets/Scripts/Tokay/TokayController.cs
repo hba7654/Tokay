@@ -147,14 +147,10 @@ public class TokayController : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if(state == TokayState.Start)
-        {
-			if(gameManager.objCounter == 4 || gameManager.objCounter == 6)
-			{
-				gameManager.objCounter++;
-
-			}
-        }
+		if (gameManager.objCounter == 4 || gameManager.objCounter == 6)
+		{
+			gameManager.objCounter++;
+		}
     }
 
 	public IEnumerator Rise()
